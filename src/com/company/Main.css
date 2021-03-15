@@ -1,0 +1,73 @@
+nav {
+    background-color: #1d1c1c;
+    color: #4f4f4f;
+}
+
+nav .mainUl{
+    padding: 0px;
+    margin: 0px;
+    list-style:none ;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    font-family: "Yu Gothic UI Semibold";
+    text-decoration: none;
+    padding: 0px;
+    font-size: 50px;
+    color: #ffffff;
+    margin: 25px;
+}
+.Dropdown li a{
+
+    color: #ffffff;
+}
+.Dropdown li a:hover{
+    padding: 15px;
+    color: #605f5f;
+}
+i{
+    margin: 30px;
+    font-size: 70px;
+}
+
+.Dropdown{
+    display: none;
+}
+
+.mainUl li {
+    position: relative;
+}
+
+.mainUl li ul{
+    position: absolute;
+    background-color: #1d1c1c;
+    width: 350px;
+    height: 310px;
+    padding: 10px;
+    margin: 0;
+    font-size: 50px;
+}
+
+.mainUl li:hover ul{
+    text-decoration: none;
+    padding: 25px;
+    font-size: 60px;
+    color: #ff0000;
+    display: block;
+}
+.container{
+
+    background-color: #1d1c1c;
+    background: rgba(29, 28, 28, 0.7);
+    color: white;
+    font-family: "Yu Gothic UI Semibold";
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 50px;
+    padding: 50px;
+    width: 75%;
+}
