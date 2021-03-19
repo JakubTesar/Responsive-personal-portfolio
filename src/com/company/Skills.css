@@ -1,17 +1,18 @@
 body {
     margin: 0px;
-    background: repeating-linear-gradient(#605f5f, #1d1d1d);
+    background: repeating-linear-gradient(#4b61a4, #1d1d1d);
     height: 100vh;
-    font-family: "Yu Gothic UI Semibold";
+    font-family: "Yu Gothic UI Semibold", serif;
 }
 
 nav {
     background-color: #1d1d1d;
-    color: #ffffff;
 }
-.acko:hover{
- color: red;
+
+.acko:hover {
+    color: #ff0000;
 }
+
 nav .mainUl {
     padding: 0px;
     margin: 0px;
@@ -75,17 +76,16 @@ i {
     background-color: #1d1c1c;
     background: rgba(29, 28, 28, 0.7);
     color: white;
-    font-family: "Yu Gothic UI Semibold";
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 50px;
     padding: 50px;
-    width: 60%;
+    width: 70%;
+    text-align: center;
     border-radius: 20px;
     font-size: 25px;
-}
-h1{
-    font-size: 50px;
+
+
 }
 
 .box-area {
@@ -106,7 +106,7 @@ h1{
     list-style: none;
     width: 25px;
     height: 25px;
-    background: rgba(255, 255, 255, 0.2);
+    background-color: #4b61a4;
     animation: animate 20s linear infinite;
     bottom: -150px;
 }
@@ -164,4 +164,38 @@ h1{
         transform: translateY(-800px) rotate(360deg);
         opacity: 0;
     }
+}
+
+.container div {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    width: 50%;
+    height: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 12px;
+    padding: 7px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+hr {
+    font-size: 25px;
+
+    width: 42px;
+    height: 12px;
+    background-color: #8fafec;
+    margin: 8px;
+    border: solid black 2px;
+}
+
+.lajnaflex {
+    display: flex;
+    justify-content: left;
 }
